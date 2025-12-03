@@ -6,10 +6,19 @@
   "scripts": {
     "format:write": "prettier --write .",
     "format:check": "prettier --check .",
+    "test:parseInput:watch": "node --watch utils/parseInput.test.js",
     "test:day1": "node day1/puzzle.test.js",
+    "test:day2": "node day2/puzzle.test.js",
+    "test:day3": "node day3/puzzle.test.js",
     "test:day1:watch": "node --watch day1/puzzle.test.js",
+    "test:day2:watch": "node --watch day2/puzzle.test.js",
+    "test:day3:watch": "node --watch day3/puzzle.test.js",
     "day1:part1": "node day1/part1.js",
-    "day1:part2": "node day1/part2.js"
+    "day1:part2": "node day1/part2.js",
+    "day2:part1": "node day2/part1.js",
+    "day2:part2": "node day2/part2.js",
+    "day3:part1": "node day3/part1.js",
+    "day3:part2": "node day3/part2.js"
   },
   "keywords": [],
   "author": "",
