@@ -1,0 +1,21 @@
+{
+  "name": "adventofcode2025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format:write": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test:day1": "node day1/puzzle.test.js",
+    "test:day1:watch": "node --watch day1/puzzle.test.js",
+    "day1:part1": "node day1/part1.js",
+    "day1:part2": "node day1/part2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "prettier": "3.6.2"
+  }
+}
